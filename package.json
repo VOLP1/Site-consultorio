@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Site estático",
   "scripts": {
-    "start": "npx serve -s . -l 3000"
+    "start": "npx serve -s . -l ${PORT:-3000} -n"
   },
   "dependencies": {
     "serve": "^14.2.0"
