@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Site estático",
   "scripts": {
-    "start": "npx serve -s . -l ${PORT:-3000} -n"
+    "start": "node server.js"
   },
   "dependencies": {
-    "serve": "^14.2.0"
+    "serve-handler": "^6.1.5"
   }
 }
